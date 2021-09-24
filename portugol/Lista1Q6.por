@@ -15,10 +15,8 @@ programa
 		escreva("Digite o valor de Y2: ")
 		leia(y2)
 
-		exp1 = math.potencia(x2 - x1, 2)
-		exp2 = math.potencia(y2 - y1, 2)
 		
-		d = math.raiz(exp1 + exp2, 2)
+		d = math.raiz((math.potencia(x2 - x1, 2) + math.potencia(y2 - y1, 2)), 2)
 
 		d = math.arredondar(d, 2)
 
@@ -30,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 417; 
+ * @POSICAO-CURSOR = 307; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
