@@ -31,6 +31,7 @@ programa
 		mediaSalario = totalSalario/y
 		mediaSalario = mat.arredondar(mediaSalario, 2)
 		percent = (contSalario/y)*100
+		percent = mat.arredondar(percent, 2) 
 
 		escreva("A média salaria da amostragem foi de: ", mediaSalario, "\n")
 		escreva("A médias do número de filhos da amnostragem foi de: ", mediaNQtdFilhos, "\n")
@@ -44,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1121; 
+ * @POSICAO-CURSOR = 801; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
