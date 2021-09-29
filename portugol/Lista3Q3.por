@@ -3,12 +3,13 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro n=0, soma=0, mediaN=0, contN=0
+		inteiro n=0, contN=0
+		real mediaN=0, soma=0
 		
 		enquanto (n>=0){
 			escreva("Digite um número: ")
 			leia(n)
-			se (n>0){
+			se (n>=0){
 				soma += n
 				contN += 1
 				}
@@ -33,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 211; 
+ * @POSICAO-CURSOR = 218; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
