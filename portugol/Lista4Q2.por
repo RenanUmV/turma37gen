@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
 		inteiro dado[10], n, maior=0, cont=0
@@ -19,10 +19,14 @@ programa
 				}
 			
 			se (dado[x]>=maior){
-				maior = dado[x]
 				se (dado[x] == maior){
 					cont ++
 					}
+				senao se(dado[x]>maior){
+					cont = 1
+				}
+				
+				maior = dado[x]
 				
 				}
 			soma += dado[x]
@@ -42,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 819; 
+ * @POSICAO-CURSOR = 575; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
