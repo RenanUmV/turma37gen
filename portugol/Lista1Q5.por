@@ -14,7 +14,7 @@ programa
 		p1 = 2
 		p2 = 3
 		p3 = 5
-		media = (n1*2.3 + n2 * 5 + n3 * p3)/(p1+p2+p3)
+		media = (n1*p1 + n2 * p2 + n3 * p3)/(p1+p2+p3)
 		
 		
 		escreva("Sua média foi: ", media)
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 338; 
+ * @POSICAO-CURSOR = 272; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
