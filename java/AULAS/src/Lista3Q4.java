@@ -24,7 +24,7 @@ public class Lista3Q4 {
 			if (sexo==3 && respOp==1) {
 				oCalmos ++;
 			}
-			if(respOp==2 && idade > 40) {
+			if(respOp==2 && idade >= 40) {
 				nervosaMaior40 ++;
 			}
 			if(respOp == 1 && idade < 18) {
