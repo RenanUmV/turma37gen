@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\nan_m\Desktop\turma37gen\SpringBoot\blogPessoal\blogPessoal"/>
 			<item value="C:\Users\nan_m\Desktop\hello\hello"/>
 		</list>
 		<list key="projectNameTemplate">
