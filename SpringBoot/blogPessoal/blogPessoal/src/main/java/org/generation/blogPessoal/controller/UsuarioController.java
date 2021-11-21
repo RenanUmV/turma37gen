@@ -10,6 +10,7 @@ import org.generation.blogPessoal.model.Usuario;
 import org.generation.blogPessoal.repository.UsuarioRepository;
 import org.generation.blogPessoal.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -58,7 +59,7 @@ public class UsuarioController {
 	}
 	
 	@PostMapping("/cadastrar")
-	public ResponseEntity<Optional<Usuario>> Post(@Valid @RequestBody Usuario usuario){
-		return ResponseEntity.status(HttpStatus.CREATED).body(usuarioService.cadastrarUsuario(usuario));
+	public ResponseEntity<Usuario> Post(@Valid @RequestBody Usuario usuario){
+		return ResponseEntity.status(HttpStatus.CREATED).body(usuarioService.cadastrarUsuario(usuario).get());
 	}
 }
