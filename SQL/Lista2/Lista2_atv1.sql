@@ -49,3 +49,4 @@ select tb_personagem.nome, tb_classe.nome FROM tb_personagem INNER JOIN tb_class
 Select tb_personagem.nome, tb_classe.nome from tb_classe INNER JOIN tb_personagem ON tb_personagem.fk_classe_id = tb_classe.classe_id WHERE tb_classe.nome = "Mago";
 
 select * from tb_classe;
+
